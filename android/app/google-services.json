@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "865528263704",
+    "project_id": "vitafit-369c1",
+    "storage_bucket": "vitafit-369c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865528263704:android:ee36a391945b89705f7f6d",
+        "android_client_info": {
+          "package_name": "com.vitafit.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865528263704-e38mqrj1abdmk4prgmj6e8ufjhser1f3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApIoop-eBSUcfdVqVbsbnGCXlPWd7seJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865528263704-e38mqrj1abdmk4prgmj6e8ufjhser1f3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "865528263704-d2g8tjhko8ua4ujvrs885k37t46r7bcl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ios.getpansia.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

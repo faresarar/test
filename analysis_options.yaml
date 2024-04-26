@@ -1,0 +1,22 @@
+
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_print: true
+    prefer_single_quotes: true
+    comment_references: true
+    empty_statements: true
+    no_duplicate_case_values: true
+    no_logic_in_create_state: true
+    test_types_in_equals: true
+    unnecessary_statements: true
+    use_key_in_widget_constructors: true
+    always_declare_return_types: true
+    always_specify_types: false
+    avoid_init_to_null: true
+    use_build_context_synchronously: true
+    sort_child_properties_last: true
+    prefer_function_declarations_over_variables: true
+    no_leading_underscores_for_local_identifiers: true
+    prefer_interpolation_to_compose_strings: true

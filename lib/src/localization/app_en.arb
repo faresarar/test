@@ -1,0 +1,156 @@
+{
+  "appTitle": "VitaFit",
+
+  "sign_in_canceled":"Authentication operation has been canceled",
+  "account_exists_with_different_credential":"Sign in using a different method",
+  "authentication_failed":"Authentication failed",
+  "credential_already_in_use":"Credential already in use",
+  "document_not_found":"Document not found",
+  "email_already_in_use":"Account already exists",
+  "invalid_continue_uri":"Continue URL is invalid",
+  "invalid_credential":"Wrong Email or Password",
+  "invalid_email":"Email address is not valid",
+  "invalid_phone_number":"Invalid phone number",
+  "invalid_promo_code":"Promo Code Invalid",
+  "invalid_verification_code":"Verification code is not valid",
+  "invalid_verification_id":"Verification ID is not valid",
+  "permission_denied":"You do not have permission to execute the specified operation.",
+  "unknown_error":"Something went wrong! try again",
+  "service_unavailable":"The service is currently unavailable! Try again later",
+  "time_out_being_created":"Connection time out! Your user document is still being created! Try again later",
+  "time_out_has_pending_writes":"Connection time out! Your user document is still being written! Try again later",
+  "time_out":"Time out! Try again later",
+  "missing_android_pkg_name":"An Android package name must be provided if the Android app is required to be installed",
+  "missing_client_identifier":"Missing App Identifier",
+  "missing_continue_uri":"A continue URL must be provided in the request.",
+  "missing_ios_bundle_id":"An iOS Bundle ID must be provided if an App Store ID is provided.",
+  "network_request_failed":"Check your internet connection",
+  "operation_not_allowed":"Operation not allowed",
+  "permission_denied":"You do not have permission to execute the specified operation.",
+  "provider_already_linked":"Credential already in use",
+  "quota_exceeded":"SMS quota has been exceeded",
+  "too_many_requests":"Too many attempts to sign in",
+  "unauthorized_continue_uri":"Continue URL is not whitelisted.",
+  "unknown_error":"Something went wrong! try again",
+  "user_disabled":"Account has been disabled",
+  "user_mismatch":"Credential does not correspond to the user",
+  "user_not_found":"No user corresponding to this email",
+  "user_not_match":"Couldn't retrieve user data! Try again later",
+  "weak_password":"at least 6 characters",
+  "wrong_password":"Wrong password",
+  "app_not_authorized":"An invalid Safety Net Token was passed",
+  "requires_recent_login_body":"Session expired: Recent login is required, please login and try again.",
+  "requires_recent_login":"Recent login is required",
+  "account_exists_with_different_credential":"Sign in using the provider associated with this email.",
+
+
+
+
+
+  
+  "dialog_title_permission_required":"Permission required",
+  "dialog_content_permission_camera_android":"VitaFit requires access to your camera to take upload and photos.",
+  "dialog_content_permission_camera_ios":"To be able to take and upload photos, go to Settings > Privacy > Camera > VitaFit > All Photos.",
+  "dialog_content_permission_location_android":"VitaFit requires access to your location to retrieve location address.",
+  "dialog_content_permission_location_ios":"To be able to pick your current location address,  go to Settings > Privacy > Location Services> VitaFit > Enable.",
+  "dialog_content_permission_microphone_android":"VitaFit requires access to microphone to record videos.",
+  "dialog_content_permission_microphone_ios":"To be able to record videos, go to Settings > Privacy > Microphone > VitaFit > Enable.",
+  "dialog_content_permission_photos_android":"VitaFit requires access to your photo library to upload photos to your profile and posts.",
+  "dialog_content_permission_photos_ios":"To be able to upload photos to your profile and posts, go to Settings > Privacy > Photos > VitaFit > All Photos.",
+  "dialog_content_enable_location_android":"Enable your device location to display your location on the map.",
+  "dialog_content_enable_location_ios":"Enable your device location to display your location on the map.",
+  
+  "min_caracters":"Must be at least {min} caracters",
+  "dismiss":"Dismiss",
+  "yes":"Yes",
+  "no":"No",
+  "cancel":"Cancel",
+  "close":"Close",
+  "confirmation":"Confirmation",
+  "information":"Information",
+  "great":"Great",
+  "oops":"Oops",
+  "logout":"Logout",
+  "continu":"Continue",
+  "all":"All",
+  "open_settings":"Open settings",
+  "dialog_title_maintenance":"Maintenance Break!",
+  "dialog_title_update":"New update!",
+  "dialog_content_maintenance":"Sorry! Our servers are currently under Maintenance to push new updates. Try again later.",
+  "dialog_content_update":"A new update with new features and improvements is available. Update now!",
+  "update":"Update",
+
+  "moments_ago":"Moments ago",
+  "minutes_ago":"{nb, plural, =1{1 minute} other{{nb} minutes}} ago",
+  "m_ago":"{nb}m ago",
+  "m":"{nb}m",
+  "hours_ago":"{nb, plural, =1{1 hour} other{{nb} hours}} ago",
+  "h_ago":"{nb}h ago",
+  "h":"{nb}h",
+  "days_ago":"{nb, plural, =1{1 day} other{{nb} days}} ago",
+  "d_ago":"{nb}d ago",
+  "d":"{nb}d",
+
+  "@m_ago":{
+    "placeholders":{
+      "nb":{
+        "type":"int",
+        "example":"5m ago"
+      }
+    }
+  },
+  "@h_ago":{
+    "placeholders":{
+      "nb":{
+        "type":"int",
+        "example":"5h ago"
+      }
+    }
+  },
+  "@d_ago":{
+    "placeholders":{
+      "nb":{
+        "type":"int",
+        "example":"5d ago"
+      }
+    }
+  },
+  "@m":{
+    "placeholders":{
+      "nb":{
+        "type":"int",
+        "example":"5m"
+      }
+    }
+  },
+  "@h":{
+    "placeholders":{
+      "nb":{
+        "type":"int",
+        "example":"5h"
+      }
+    }
+  },
+  "@d":{
+    "placeholders":{
+      "nb":{
+        "type":"int",
+        "example":"5d"
+      }
+    }
+  },
+
+
+
+
+
+  "@min_caracters":{
+    "description":"a validator message for minimum length",
+    "placeholders":{
+      "min":{
+        "type":"String",
+        "example":"10"
+      }
+    }
+  }
+}
